@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ececec;
+}
+header {
+	padding-top: 30px;
+	height: 60px;
+	width: 960px;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+header strong {
+	font-size: 1.6rem;
+}
+section {
+	background-color: white;
+	min-height: 370px;
+	height: auto;
+	width: 960px;
+	margin: 0 auto;
+}
+form {
+	margin: 0 auto;
+	width: 32rem;
+	height: 325px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#title {
+	width: 32rem;
+	height: 2rem;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+#name {
+	width: 15rem;
+	height: 2rem;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+#back a{
+text-decoration: none;
+color: black;
+}
+.radiodiv {
+	width: 16rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.button button {
+	width: 6rem;
+	height: 2rem;
+	background-color: white;
+	border: 1px solid gray;
+}
+.rbutton {
+	float: right;
+}
+.rbutton button {
+	background-color: deepskyblue;
+	color: white;
+}

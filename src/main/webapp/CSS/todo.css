@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+      background-color: #ececec;
+}
+
+header {
+      height: 6rem;
+      width: 60rem;
+      background-color: white;
+      margin: 0 auto;
+}
+
+section {
+      background-color: white;
+      min-height: 500px;
+      height: inherit;
+      width: 60rem;
+      margin: 0 auto;
+}
+
+#toptitle {
+      transform: rotate(-30deg);
+      position: absolute;
+      top: 47px;
+      font-size: 1.5rem;
+      color: darkcyan;
+      display: inline-block;
+}
+
+.todoform {
+      float: right;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-right: 15px;
+}
+
+.todoform li {
+     list-style: none;
+     background-color: deepskyblue;
+     width: 12rem;
+     height: 2rem;
+}
+
+.todoform a {
+     text-decoration: none;
+     display: block;
+     text-align: center;
+     padding-top: 5px;
+     color: white;
+}
+   
+.listdiv {
+     list-style: none;
+     float: right;
+     display: flex;
+}
+        
+.listdiv > ul{
+	 padding-left: 0px; padding-right: 10px;
+}
+
+.listdiv li {
+     margin-bottom: 8px;
+}
+
+.category {
+     display: flex;
+     align-items: center;
+     width: 18rem;
+     height: 4rem;
+     background-color: darkcyan;
+}
+        
+.category strong {
+     margin-left: 10px;
+     color: white;
+     font-size: 1.3rem;
+}
+         
+.todolist {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 18rem;
+     height: 6rem;
+     background-color: skyblue;
+}
+		
+.todolist strong {
+     font-size: 1.2rem;
+     margin: 10px 10px 0px;
+}
+
+.todolist span {
+     color: darkcyan;
+     margin: 10px;
+     font-size: 0.85rem;
+}
+
+.todolist button {
+    float: right;
+}
+ 
+.type, .id{
+ 	display: none;
+} 	
